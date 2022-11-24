@@ -1,0 +1,455 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Navigation  */
+.navbar {
+  opacity: 0.97;
+  background: #222;
+  /* background: rgba(0, 0, 0, 0.5) !important; */
+  color: #fff;
+  box-shadow: 2px 2px 5px #555;
+}
+.navbar .nav-item.active {
+  border-bottom: #222 4px solid;
+}
+.navbar .nav-item {
+  font-size: 16.5px;
+}
+.navbar .navbar-brand {
+  font-size: 1.2rem;
+}
+
+/* Home Section index.html */
+
+#home-section::after {
+  content: "";
+  background-image: url(../img/image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  filter: blur(1.3px);
+  -webkit-filter: blur(1.3px);
+  /* padding-top: 100px; */
+  transition: all 1000ms;
+}
+#home-section:hover::after {
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+#home-section:hover .content {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 50%;
+  margin-top: 125px;
+  margin-left: -145px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transition: all 1000ms;
+}
+.content .logo {
+  height: 160px;
+  width: 160px;
+}
+.content .title {
+  font-size: 2.2rem;
+  margin-top: 0.5rem;
+}
+.content .text {
+  line-height: 1.7;
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+}
+
+/* For Home Video Section */
+#video-play1 .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play1 {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/image7.jpg);
+  background-attachment: fixed;
+  background-position: 0 -300px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+#video-play1 a {
+  color: #fff;
+}
+
+/* For Footer section */
+footer .row {
+  margin: auto !important;
+}
+
+/* For webdevelopment.html part */
+/* For Carousel */
+#showcase {
+  box-shadow: 2px 2px 5px #33373d;
+}
+
+.carousel-item {
+  height: 100vh;
+  width: 100vw;
+}
+
+.carousel-image-1 {
+  background: url(../img/image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-image-2 {
+  background: url(../img/image4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-3 {
+  background: url(../img/image5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* For Html Section */
+#html-section,
+#css-section,
+#bootstrap-section {
+  background: #d3d3d3;
+  box-shadow: 2px 2px 5px #555;
+  border-radius: 7px;
+}
+#myimage {
+  border-radius: 50%;
+  transition: all ease 0.5s;
+}
+#myimage:hover {
+  transform: scale(1.01);
+  -webkit-box-shadow: -1px 0px 28px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 28px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Bonuses Section */
+#bonuses {
+  background: #344359;
+  color: #fff;
+  /* text-align: center; */
+  border: 4px #b1bccb double;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #33373d;
+}
+#bonuses #bonuses-arrow {
+  border-right: 5px #fff solid;
+  border-left: 5px #fff solid;
+  border-bottom: 5px #fff solid;
+}
+
+/* For Backend.html */
+.carousel-image-4 {
+  background: url(../img/image10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-image-5 {
+  background: url(../img/image11.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-6 {
+  background: url(../img/image12.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#javascript-letters-in-carousel {
+  position: relative;
+  z-index: 1;
+  color: #9ca9b7;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#javascript-letters-in-carousel h1,
+#node-letters-in-carousel h1,
+#react-letters-in-carousel h1 {
+  font-size: 5rem;
+}
+#node-letters-in-carousel {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#react-letters-in-carousel {
+  position: relative;
+  z-index: 1;
+  color: #f2d48f;
+  text-align: center;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#javas-section {
+  background: #e6b942;
+  box-shadow: 2px 2px 5px #555;
+  border-radius: 7px;
+}
+
+#node-section {
+  background: #fff;
+  box-shadow: 2px 2px 5px #555;
+  border-radius: 7px;
+}
+#react-section {
+  background: #00d7fe;
+  box-shadow: 2px 2px 5px #555;
+  border-radius: 7px;
+}
+
+#game {
+  background: #05141e;
+  border: 4px #0c2130 solid;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #33373d;
+  color: #fff;
+}
+
+/* Contact.html */
+#page-header {
+  background: url(../img/image16.jpg);
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+}
+#authors img {
+  margin-top: -50px;
+}
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+#authors .fab {
+  color: #fff;
+}
+
+/* Animations */
+
+/* Home section videoplay button */
+#video-play1 #videoPlayButton {
+  position: relative;
+  animation-name: video-play-button;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes video-play-button {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
+/* Check symbols in html, css, bootstrap section */
+#html-section #checkbox,
+#css-section #checkbox,
+#bootstrap-section #checkbox,
+#javas-section #checkbox1,
+#node-section #checkbox1,
+#react-section #checkbox1 {
+  transition: all 1.5s ease-in-out;
+}
+#html-section #checkbox:hover,
+#css-section #checkbox:hover,
+#bootstrap-section #checkbox:hover {
+  transform: rotate(360deg);
+}
+/* Check symbols in javas, node, react section */
+#javas-section #checkbox1:hover,
+#node-section #checkbox1:hover,
+#react-section #checkbox1:hover {
+  transform: rotate(-360deg);
+}
+
+/* HTML 5, CSS 3, Bootstrap 4 elements animations */
+#html5-symbol:hover,
+#css3-symbol:hover,
+#bootstrap4-symbol:hover,
+#javas-symbol:hover,
+#node-symbol:hover,
+#react-symbol:hover {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  animation-name: symbol-animation;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes symbol-animation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+/* Bonuses section arrow */
+#arrow-bonuses {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  animation-name: arrow;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes arrow {
+  from {
+    top: 10px;
+    bottom: 0;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+    bottom: 10px;
+  }
+}
+
+/* For Modal */
+
+/* HTML section modals */
+/* #html-section-modal {
+  position: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  z-index: 1;
+
+  &.html-animation-button1 {
+    transform: scaleY(0.01) scaleX(0);
+    animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    .modal-content {
+      .modal-dialog {
+        transform: scale(0);
+        animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+      }
+    }
+    &.out {
+      transform: scale(1);
+      animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+      .modal-background {
+        .modal {
+          animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+        }
+      }
+    }
+  }
+} */
+
+/* For Home Section */
+#donate-button .modal-content {
+  background: #343a40;
+  color: #fff;
+}
+
+/* For webdevelopment.html Section modal */
+#html-section-modal .modal-content,
+#css-section-modal .modal-content,
+#bootstrap-section-modal .modal-content {
+  background: #1e3351;
+  color: #fff;
+}
+#bonuses-section-modal .modal-content {
+  background: #0b161e;
+  color: #fff;
+}
+
+/* For backend.html section modal */
+#javas-section-modal .modal-content {
+  background: #e6b942;
+  color: #fff;
+}
+#node-section-modal .modal-content {
+  background: #9bb8cd;
+  color: #fff;
+}
+#react-section-modal .modal-content {
+  background: #00d7fe;
+  color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  /* For Navigation */
+  /* .navbar #main-nav {
+    width: 100%;
+  } */
+  .navbar .nav-item.active {
+    border-bottom: none;
+    border-left: #222 4px solid;
+  }
+  .navbar .nav-link {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  /* For Home Section */
+  .content .logo {
+    height: 140px;
+    width: 140px;
+  }
+  .content .text {
+    display: none;
+  }
+  #donate {
+    padding-top: 1.5rem;
+  }
+
+  /* For Footer */
+  footer #social-media-footer {
+    padding-top: 1rem;
+  }
+
+  /* For  id="javascript-letters-in-carousel" */
+  #javascript-letters-in-carousel h1,
+  #node-letters-in-carousel h1,
+  #react-letters-in-carousel h1 {
+    font-size: 3.5rem;
+  }
+}

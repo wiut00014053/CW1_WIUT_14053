@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/6782670a2f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Code Learn</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div
+      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+      id="main-navigation"
+    >
+      <div class="container-fluid" id="main-nav">
+        <a href="index.html" class="navbar-brand">
+          <span class="d-inline align-middle"><i class="fas fa-atom-alt fa-2x"></span></i> Code Learn</a><!--Use fa-laptop-code-->
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navigationCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navigationCollapse">
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="webdevelopment.html" class="nav-link">3 In One</a>
+            </li>
+            <li class="nav-item active">
+              <a href="backend.html" class="nav-link">JS+Backend</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+     <!-- Showcase Slider -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-4 active">
+          <div id="javascript-letters-in-carousel">
+            <h1>Java Script  <i class="fab fa-js-square"></i></h1>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-5">
+          <div id="node-letters-in-carousel">
+            <h1>Node.JS  <i class="fab fa-node-js"></i></h1>
+          </div>
+        </div>
+        <div class="carousel-item carousel-image-6">
+          <div id="react-letters-in-carousel">
+            <h1>React  <i class="fab fa-react"></i></h1>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- JavaScript Section -->
+
+  <section class="py-3 m-4 p-4" id="javas-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center d-none d-md-block">
+          <a data-target="#javas-section-modal" data-toggle="modal"><img src="img/image13.png" alt="JavaScript" class="img-fluid" id="myimage"></a>
+        </div>
+        <div class="col-md-6 text-center align-self-center">
+          <i id="javas-symbol" class="fab fa-js-square fa-5x mb-2 text-light"></i>
+            <h3 class="text-white">How To Init</h3>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x text-light"></i>
+              </div>
+              <div class="p-3 align-self-end text-white">
+                By the end of this course, You can became from a total beginner to an advanced JavaScript developer
+              </div>
+            </div>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x text-light"></i>
+              </div>
+              <div class="p-3 align-self-end text-white">
+                You will be able to use JavaScript and programming fundamentals: variables, boolean logic, if/else, loops, functions, arrays, etc
+              </div>
+            </div>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x text-light"></i>
+              </div>
+              <div class="p-3 align-self-end text-white">
+                You will learn A true understanding of how JavaScript works behind the scenes
+              </div>
+            </div>
+
+            <button class="btn btn-outline-light btn-lg mr-2 px-3" data-toggle="modal" data-target="#read-more-javas">Read More</button>
+            <button class="btn btn-outline-light btn-lg ml-2 px-3" data-toggle="modal" data-target="#javas-section-modal">Enroll</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Node.js Section -->
+
+  <section class="py-3 m-4 p-4" id="node-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center d-none d-md-block">
+          <a href="" data-toggle="modal" data-target="#node-section-modal"><img src="img/image14.png" alt="Node.js" class="img-fluid" id="myimage"></a>
+        </div>
+        <div class="col-md-6 text-center align-self-center">
+          <i id="node-symbol" class="fab fa-node-js fa-5x mb-2"></i>
+            <h3>How To Be Behind</h3>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x"></i>
+              </div>
+              <div class="p-3 align-self-end">
+              You will understand the Javascript and technical concepts behind NodeJS and grasp how NodeJS works under the hood
+              </div>
+            </div>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x"></i>
+              </div>
+              <div class="p-3 align-self-end">
+                You will learn how to structure a Node application in modules, understand and use the Event Emitter and understand Buffers, Streams, and Pipes
+              </div>
+            </div>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x"></i>
+              </div>
+              <div class="p-3 align-self-end">
+                You will be the coder that explains NodeJS to everyone else because you understand it better than anyone else
+              </div>
+            </div>
+
+            <button class="btn btn-outline-dark btn-lg mr-2 px-3" data-toggle="modal" data-target="#read-more-node">Read More</button>
+            <button class="btn btn-outline-dark btn-lg ml-2 px-3" data-toggle="modal" data-target="#node-section-modal">Enroll</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- React Section -->
+
+  <section class="py-3 m-4 p-4" id="react-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center d-none d-md-block">
+          <a href="" data-toggle="modal" data-target="#react-section-modal"><img src="img/image15.png" alt="React" class="img-fluid" id="myimage"></a>
+        </div>
+        <div class="col-md-6 text-center align-self-center">
+          <i id="react-symbol" class="fab fa-react fa-5x mb-2 text-white"></i>
+            <h3 class="text-white">How To Be Reactive </h3>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x text-white"></i>
+              </div>
+              <div class="p-3 align-self-end text-white">
+                  You will be the engineer who explains how React works to everyone else, because you know the fundamentals so well
+              </div>
+            </div>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x text-white"></i>
+              </div>
+              <div class="p-3 align-self-end text-white">
+                  You will build amazing single page applications with React JS and Redux
+              </div>
+            </div>
+            <div class="d-flex">
+              <div id="checkbox1" class="p-3 align-self-start">
+                <i class="fas fa-check-square fa-3x text-white"></i>
+              </div>
+              <div class="p-3 align-self-end text-white">
+                  You will become fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax
+              </div>
+            </div>
+
+            <button class="btn btn-outline-light btn-lg mr-2 px-3" data-toggle="modal" data-target="#read-more-react">Read More</button>
+            <button class="btn btn-outline-light btn-lg ml-2 px-3" data-toggle="modal" data-target="#react-section-modal">Enroll</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Game section -->
+  <section id="game" class="p-4 m-4 text-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div id="letter-animation1"><h1 class="display-4 letter">See Our One Project And Have Fun!</h1></div>
+          <p class="lead">
+            If You want to see how we do things great and distribute good things all over the world, See our one little project and have fun with your closest ones! How? Just <strong>Click on</strong> the button below! 
+          </p>
+          <span id="bonuses-arrow"><i id="arrow-bonuses" class="fas fa-arrow-down fa-3x m-2"></i></span>
+          <br>
+          <a href="game.html" role="button" class="btn btn-outline-dark btn-lg mt-3">Just Click</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bonuses -->
+  <section id="bonuses" class="p-4 m-4 text-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div id="letter-animation1"><h1 class="display-4 letter">As Usual, Some Bonuses?</h1></div>
+          <p class="lead">
+            If You buy these courses in a complect,
+             we have 25% of discount of the total cost, and it means one is almost free of charge! Get interested? Just <strong>Click on</strong> the button below! 
+          </p>
+          <span id="bonuses-arrow"><i id="arrow-bonuses" class="fas fa-arrow-down fa-3x m-2"></i></span>
+          <br>
+          <button class="btn btn-outline-info btn-lg mt-3" data-toggle="modal" data-target="#bonuses-section-modal">Buy All</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+   
+    
+    <!-- Footer SEction -->
+    <footer id="main-footer" class="p-4">
+      <div class="container">
+        <div class="row justify-content-between d-flex">
+          <div class="col-md-6 text-center">
+              <p class="lead">Follow us on social media:</p>
+              <ul class="mb-0 p-0">
+                <li class="list-inline-item">
+                  <a href="http://www.facebook.com">
+                    <i class="fa fa-facebook fa-2x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item pl-4">
+                  <a href="http://www.twitter.com">
+                    <i class="fa fa-twitter fa-2x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item pl-4">
+                  <a href="http://www.instagram.com">
+                    <i class="fa fa-instagram fa-2x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item pl-4">
+                  <a href="http://www.linkedin.com">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item pl-4">
+                  <a href="http://www.github.com">
+                    <i class="fa fa-github fa-2x"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 text-center" id="social-media-footer">
+              <p class="lead">Copyright &copy;<span id="year"></span> Code Learn</p>
+              <a href="#" class="btn btn-outline-primary" data-toggle="modal"
+              data-target="#video-aim-website">
+              Aim Of The Website
+              </a>
+            </div>  
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modals -->
+
+    <!-- For JavaScript Section -->
+    <div class="modal fade" id="javas-section-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">JavaScript Course</h5>
+            <button class="close text-white" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <p class="lead text-right"><strong>$19.99</strong></p>
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="category">Card Number</label>
+                <select class="form-control">
+                  <option value="">Credit Card</option>
+                  <option value="">Debit Card</option>
+                  <option value="">Paypal</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cardnumber">Card Number</label>
+                <input type="text" class="form-control">
+              </div>              
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light btn-block" data-toggle="modal" data-target="#javas-buy" data-dismiss="modal">Buy It</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="javas-buy">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body bg-dark text-white">
+            <button class="close text-white" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <p class="lead text-center">Thank You! You have bought JavaScript course now. We think you will not regret and will be a master on this.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <!-- For Node.js Section -->
+    <div class="modal fade" id="node-section-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Node.JS Course</h5>
+              <button class="close text-white" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div>
+                <p class="lead text-right"><strong>$19.99</strong></p>
+              </div>
+              <form>
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="category">Card Number</label>
+                  <select class="form-control">
+                    <option value="">Credit Card</option>
+                    <option value="">Debit Card</option>
+                    <option value="">Paypal</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="cardnumber">Card Number</label>
+                  <input type="text" class="form-control">
+                </div>              
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline-light btn-block" data-toggle="modal" data-target="#node-buy" data-dismiss="modal">Buy It</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="node-buy">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body bg-dark text-white">
+              <button class="close text-white" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <p class="lead text-center">Thank You! You have bought Node.JS course now. We think you will not regret and will be a master on this.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- For React Section -->
+    <div class="modal fade" id="react-section-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Bootstrap 4 Course</h5>
+              <button class="close text-white" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div>
+                <p class="lead text-right"><strong>$15.99</strong></p>
+              </div>
+              <form>
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="category">Card Number</label>
+                  <select class="form-control">
+                    <option value="">Credit Card</option>
+                    <option value="">Debit Card</option>
+                    <option value="">Paypal</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="cardnumber">Card Number</label>
+                  <input type="text" class="form-control">
+                </div>              
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline-light btn-block" data-toggle="modal" data-target="#react-buy" data-dismiss="modal">Buy It</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="react-buy">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body bg-dark text-white">
+              <button class="close text-white" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <p class="lead text-center">Thank You! You have bought React course now. We think you will not regret and will be a master on this.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- Read More For JavaScript Section -->
+    <div class="modal fade" id="read-more-javas">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h5 class="modal-title">About this course</h5>
+            <button class="close text-white" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>This course includes</h5>
+            <ul class="form-group">
+              <li class="form-control mb-1">
+                <i class="fas fa-video fa-2x"></i> 25 hours on-demand video
+              </li>
+              <li class="form-control mb-1">
+                <i class="far fa-newspaper fa-2x"></i> 7 articles for more understanding
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-file-download fa-2x"></i> 34 downloadable resources
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-mobile-alt fa-2x"></i> TV and mobile access
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-medal fa-2x"></i> Compilation Certificate
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-infinity fa-2x"></i> Completely full access
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-dark btn-block" data-toggle="modal" data-target="#javas-section-modal" data-dismiss="modal">Buy It</button>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Read More For Node.JS Section -->
+    <div class="modal fade" id="read-more-node">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h5 class="modal-title">About this course</h5>
+            <button class="close text-white" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>This course includes</h5>
+            <ul class="form-group">
+              <li class="form-control mb-1">
+                <i class="fas fa-video fa-2x"></i> 15 hours on-demand video
+              </li>
+              <li class="form-control mb-1">
+                <i class="far fa-newspaper fa-2x"></i> 12 articles for more understanding
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-file-download fa-2x"></i> 19 downloadable resources
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-mobile-alt fa-2x"></i> TV and mobile access
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-medal fa-2x"></i> Compilation Certificate
+              </li>
+              <li class="form-control mb-1">
+                <i class="fas fa-infinity fa-2x"></i> Completely full access
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-dark btn-block" data-toggle="modal" data-target="#node-section-modal" data-dismiss="modal">Buy It</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Read More For React Section -->
+    <div class="modal fade" id="read-more-react">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+              <h5 class="modal-title">About this course</h5>
+              <button class="close text-white" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h5>This course includes</h5>
+              <ul class="form-group">
+                <li class="form-control mb-1">
+                  <i class="fas fa-video fa-2x"></i> 13 hours on-demand video
+                </li>
+                <li class="form-control mb-1">
+                  <i class="far fa-newspaper fa-2x"></i> 9 articles for more understanding
+                </li>
+                <li class="form-control mb-1">
+                  <i class="fas fa-file-download fa-2x"></i> 24 downloadable resources
+                </li>
+                <li class="form-control mb-1">
+                  <i class="fas fa-mobile-alt fa-2x"></i> TV and mobile access
+                </li>
+                <li class="form-control mb-1">
+                  <i class="fas fa-medal fa-2x"></i> Compilation Certificate
+                </li>
+                <li class="form-control mb-1">
+                  <i class="fas fa-infinity fa-2x"></i> Completely full access
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-dark btn-block" data-toggle="modal" data-target="#react-section-modal" data-dismiss="modal">Buy It</button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- For Bonuses Section -->
+    <div class="modal fade" id="bonuses-section-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">You Want All?</h5>
+            <button class="close text-white" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <p class="lead text-right">All cost only <strong>$42.00</strong></p>
+            </div>
+              <form>
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="category">Card Number</label>
+                  <select class="form-control">
+                    <option value="">Credit Card</option>
+                    <option value="">Debit Card</option>
+                    <option value="">Paypal</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="cardnumber">Card Number</label>
+                  <input type="text" class="form-control">
+                </div>              
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#bonusess-buy" data-dismiss="modal">Buy All</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="bonusess-buy">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body bg-dark text-white">
+            <button class="close text-white" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <p class="lead text-center">Thank You! Thank You! You have bought All Three courses now. We think you will not regret and will be a master on making a full online responsive website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Footer Modal For Aim Of The Website -->
+    <div class="modal fade" id="video-aim-website">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body bg-dark text-white">
+            <button class="close text-white" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <p class="lead text-center">This web site was created to fulfill Web Technologies module’s requirements and does not represent actual company or service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+    
+
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+
+      // Configure Slider
+    $('.carousel').carousel({
+      interval: 5000,
+      pause: 'hover'
+    });
+
+
+
+
+    </script>
+  </body>
+</html>
